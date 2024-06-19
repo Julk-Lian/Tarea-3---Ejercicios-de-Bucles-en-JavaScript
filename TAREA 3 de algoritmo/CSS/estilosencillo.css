@@ -1,0 +1,107 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #15ff0065;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .Titulo {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color: #333;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    padding: 20px;
+  }
+  
+  /* Estilos para los formularios */
+  form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  form input[type="text"],
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  form button {
+    padding: 12px 24px;
+    background-color: #25a719;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  form button:hover {
+    background-color: #cc0000;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
